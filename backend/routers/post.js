@@ -1,6 +1,8 @@
 const router  = require('express').Router();
 
-router.post('/api/post/create')
+router.post('/create', (req, res) => {
+    
+});
 router.get('/api/post/latest')
 
 
